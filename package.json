@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    
+    "start": "node index.js",
+    "build": "npm install --force"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +17,6 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7"
+    "better-sqlite3": "^8.3.0"
   }
 }
